@@ -8,9 +8,6 @@ public class Break_and_Continue {
 			if (i == 5) {
 				break;
 			}
-			/*if(i == 5) {
-				continue;
-			}*/
 		}
 		
 		System.out.println();
