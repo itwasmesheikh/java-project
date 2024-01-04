@@ -5,6 +5,13 @@ public class Car {
 	private String engine;
 	private String driver;
 	private int speed;
+	
+	public Car(String doors, String engine, String driver, int speed) {
+		this.doors = doors;
+		this.engine = engine;
+		this.driver = driver;
+		this.speed = speed;
+	}
 
 	public void setSpeed(int speed) {
 		this.speed = speed;

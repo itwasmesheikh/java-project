@@ -27,5 +27,14 @@ public class Calculate {
 		}
 		return isPrime;
 	}
+	public static String numberCheck(int number) {
+		if(number == 0) {
+			return "Nutral";
+		}
+		else if(number%2 == 0) {
+			return "Even";
+		}else
+			return "Odd";
+	}
 		
 }
