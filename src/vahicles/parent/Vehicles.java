@@ -44,5 +44,13 @@ public class Vehicles {
 		this.lights = lights;
 	}
 	
+	public void run() {
+		System.out.println("Running Vehicles.");
+	}
+
+	public String toString() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
