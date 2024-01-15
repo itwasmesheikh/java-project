@@ -7,6 +7,13 @@ public class Animal {
 	private String bloodType;
 	
 	public Animal(int height, int weight, String animalType, String bloodType) {
+		this.height = height;
+		this.weight = weight;
+		this.animalType = animalType;
+		this.bloodType = bloodType;
+	}
+
+	public Animal() {
 		this.height = 0;
 		this.weight = 0;
 		this.animalType = "Unknown";
@@ -28,7 +35,6 @@ public class Animal {
 	public String getBloodType() {
 		return bloodType;
 	}
-
 
 	public String showInfo() {
 		return "Animal [height=" + height + ", weight=" + weight + ", animalType=" + animalType + ", bloodType="
