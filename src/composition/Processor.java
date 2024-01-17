@@ -43,4 +43,40 @@ public class Processor {
 				+ ", minFrequency=" + minFrequency + ", maxFrequency=" + maxFrequency + "]";
 	}
 
+	public String getBrand() {
+		return brand;
+	}
+
+	public String getSeries() {
+		return series;
+	}
+
+	public int getGenerations() {
+		return generations;
+	}
+
+	public int getCores() {
+		return cores;
+	}
+
+	public int getThreads() {
+		return threads;
+	}
+
+	public String getCacheMemory() {
+		return cacheMemory;
+	}
+
+	public String getFrequency() {
+		return frequency;
+	}
+
+	public String getMinFrequency() {
+		return minFrequency;
+	}
+
+	public String getMaxFrequency() {
+		return maxFrequency;
+	}
+
 }

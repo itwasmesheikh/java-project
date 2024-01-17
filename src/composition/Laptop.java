@@ -40,4 +40,32 @@ public class Laptop {
 				+ ", graphicsCard=" + graphicsCard + ", opticalDrive=" + opticalDrive + ", keyboard=" + keyboard + "]";
 	}
 
+	public Processor getProcessor() {
+		return processor;
+	}
+
+	public Graphics_Card getGraphicsCard() {
+		return graphicsCard;
+	}
+
+	public float getScreen() {
+		return screen;
+	}
+
+	public String getRam() {
+		return ram;
+	}
+
+	public String getHardDrive() {
+		return hardDrive;
+	}
+
+	public String getOpticalDrive() {
+		return opticalDrive;
+	}
+
+	public String getKeyboard() {
+		return keyboard;
+	}
+
 }
