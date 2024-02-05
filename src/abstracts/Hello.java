@@ -3,13 +3,11 @@ package abstracts;
 public class Hello {
 
 	public static void main(String[] args) {
-		Person nobody = new Vegan();
+		Person nobody = new NonVegan();
 		nobody.speak();
+		nobody.breath();
 		nobody.eat();
-		System.out.println();
-		Person anybody = new NonVegan();
-		anybody.speak();
-		anybody.eat();
+		nobody.message();
 		
 	}
 
