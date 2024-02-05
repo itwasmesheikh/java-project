@@ -4,7 +4,7 @@ public class ShopTwo {
 
 	public static void main(String[] args) {
 		//DoorTwo door = new DoorTwo();
-		if(new DoorTwo().isLocked(args[0]))
+		if(new DoorTwo().isLocked(args[0]))      //Anonymous Object
 			System.out.println("Shop has closed. Please visit later");
 		else
 			System.out.println("Welcome! The shop is open.");
